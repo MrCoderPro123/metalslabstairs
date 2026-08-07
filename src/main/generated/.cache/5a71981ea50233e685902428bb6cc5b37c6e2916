@@ -1,0 +1,17 @@
+// 26.2	-999999999-01-01T00:00:00	Metal Slabs & Stairs/Block Loot Tables
+2c10a71e61ae40f9adb11a19bbf77b656d58e185 data/metalss/loot_table/blocks/amethyst_slab.json
+a5a57de71566960f029c635be86a1003970f584a data/metalss/loot_table/blocks/amethyst_stairs.json
+1b42902503e05d7d4ccabfde6e3bb6ec825e0d57 data/metalss/loot_table/blocks/diamond_slab.json
+a6387ee810416c76454a44076205bf7c4151d01b data/metalss/loot_table/blocks/diamond_stairs.json
+336924af5791049f08c784acdc1e2ff6762900a5 data/metalss/loot_table/blocks/emerald_slab.json
+930b3948335a3dfc32e0af1b2afa000a75245459 data/metalss/loot_table/blocks/emerald_stairs.json
+5d953d2b0736b9c4c70b7c33edcb527579da4f39 data/metalss/loot_table/blocks/gold_slab.json
+7bd51924acfe12d05907aec534706d8c75922a51 data/metalss/loot_table/blocks/gold_stairs.json
+a87fd468c3b8d8930050043cb9e396e45370326f data/metalss/loot_table/blocks/iron_slab.json
+53365059ae297e449b4435372357206d6f3b5dcd data/metalss/loot_table/blocks/iron_stairs.json
+441a2bb5d6534d199007a8a7dec4a73f0f649bb7 data/metalss/loot_table/blocks/lapis_slab.json
+26afa5d60933d496f46a40b9b7552168957f6f63 data/metalss/loot_table/blocks/lapis_stairs.json
+b69b13bbe67885884affbac4055835ca46522be3 data/metalss/loot_table/blocks/netherite_slab.json
+b9ab164867f84b1885831f2dde34710772c17175 data/metalss/loot_table/blocks/netherite_stairs.json
+2f060710a183728563811e39396f51fbe7b4359b data/metalss/loot_table/blocks/redstone_slab.json
+bf0e79263a30af356bbf55f069acbb7fab19da6a data/metalss/loot_table/blocks/redstone_stairs.json

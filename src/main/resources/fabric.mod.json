@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "metalss",
+	"version": "${version}",
+	"name": "Metal Slabs & Stairs",
+	"description": "This Mod Adds Stairs and Slab to Metal Blocks!",
+	"authors": [
+		"TheDevMango"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/metalss/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.mango.metalss.MetalSlabsStairs"
+		],
+		"fabric-datagen": [
+			"com.mango.metalss.MetalSlabsStairsDataGenerator"
+		]
+	},
+	"mixins": [
+		"metalss.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

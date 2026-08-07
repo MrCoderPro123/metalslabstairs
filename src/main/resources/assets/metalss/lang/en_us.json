@@ -1,0 +1,18 @@
+{
+  "block.metalss.iron_slab": "Iron Slab",
+  "block.metalss.iron_stairs": "Iron Stairs",
+  "block.metalss.gold_slab": "Golden Slab",
+  "block.metalss.gold_stairs": "Golden Stairs",
+  "block.metalss.diamond_slab": "Diamond Slab",
+  "block.metalss.diamond_stairs": "Diamond Stairs",
+  "block.metalss.emerald_slab": "Emerald Slab",
+  "block.metalss.emerald_stairs": "Emerald Stairs",
+  "block.metalss.lapis_slab": "Lapis Lazuli Slab",
+  "block.metalss.lapis_stairs": "Lapis Lazuli Stairs",
+  "block.metalss.amethyst_slab": "Amethyst Slab",
+  "block.metalss.amethyst_stairs": "Amethyst Stairs",
+  "block.metalss.redstone_slab": "Redstone Slab",
+  "block.metalss.redstone_stairs": "Redstone Stairs",
+  "block.metalss.netherite_slab": "Netherite Slab",
+  "block.metalss.netherite_stairs": "Netherite Stairs"
+}

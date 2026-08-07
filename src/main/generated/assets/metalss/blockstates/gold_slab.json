@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "metalss:block/gold_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/gold_block"
+    },
+    "type=top": {
+      "model": "metalss:block/gold_slab_top"
+    }
+  }
+}

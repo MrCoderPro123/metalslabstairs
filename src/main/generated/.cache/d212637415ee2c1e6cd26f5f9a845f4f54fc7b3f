@@ -1,0 +1,6 @@
+// 26.2	-999999999-01-01T00:00:00	Metal Slabs & Stairs/Tags for minecraft:block
+5b238ce9d203402faddc8ce542ceae6995ac0fd1 data/minecraft/tags/block/mineable/pickaxe.json
+05bcbeb42582fe6034e6de4520b232e92f2c7a79 data/minecraft/tags/block/needs_diamond_tool.json
+1efa69acb660bf345b428633124f1d38a5331027 data/minecraft/tags/block/needs_iron_tool.json
+6945447f173b5c275f2727a6f89c7cc011d0efdc data/minecraft/tags/block/slabs.json
+c2f5652a3a981e6a63f4c1075962af61b8dac3b9 data/minecraft/tags/block/stairs.json

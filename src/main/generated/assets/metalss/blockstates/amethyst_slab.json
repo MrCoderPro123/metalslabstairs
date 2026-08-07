@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "metalss:block/amethyst_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/amethyst_block"
+    },
+    "type=top": {
+      "model": "metalss:block/amethyst_slab_top"
+    }
+  }
+}

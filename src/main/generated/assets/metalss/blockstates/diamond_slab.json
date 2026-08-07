@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "metalss:block/diamond_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/diamond_block"
+    },
+    "type=top": {
+      "model": "metalss:block/diamond_slab_top"
+    }
+  }
+}
