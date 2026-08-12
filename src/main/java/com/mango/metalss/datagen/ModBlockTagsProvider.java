@@ -15,7 +15,7 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider registries) {
-        tag(BlockTags.MINEABLE_WITH_PICKAXE)
+        builder(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.getResourceKey(ModBlocks.IRON_SLAB))
                 .add(ModBlocks.getResourceKey(ModBlocks.IRON_STAIRS))
                 .add(ModBlocks.getResourceKey(ModBlocks.DIAMOND_SLAB))
@@ -33,7 +33,7 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
                 .add(ModBlocks.getResourceKey(ModBlocks.GOLD_STAIRS))
                 .add(ModBlocks.getResourceKey(ModBlocks.GOLD_SLAB));
 
-        tag(BlockTags.NEEDS_IRON_TOOL)
+        builder(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.getResourceKey(ModBlocks.IRON_SLAB))
                 .add(ModBlocks.getResourceKey(ModBlocks.IRON_STAIRS))
                 .add(ModBlocks.getResourceKey(ModBlocks.DIAMOND_SLAB))
@@ -49,11 +49,11 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
                 .add(ModBlocks.getResourceKey(ModBlocks.GOLD_SLAB))
                 .add(ModBlocks.getResourceKey(ModBlocks.GOLD_STAIRS));
 
-        tag(BlockTags.NEEDS_DIAMOND_TOOL)
+        builder(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.getResourceKey(ModBlocks.NETHERITE_SLAB))
                 .add(ModBlocks.getResourceKey(ModBlocks.NETHERITE_STAIRS));
 
-        tag(BlockTags.STAIRS)
+        builder(BlockTags.STAIRS)
                 .add(ModBlocks.getResourceKey(ModBlocks.GOLD_STAIRS))
                 .add(ModBlocks.getResourceKey(ModBlocks.DIAMOND_STAIRS))
                 .add(ModBlocks.getResourceKey(ModBlocks.NETHERITE_STAIRS))
@@ -63,7 +63,7 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
                 .add(ModBlocks.getResourceKey(ModBlocks.REDSTONE_STAIRS))
                 .add(ModBlocks.getResourceKey(ModBlocks.IRON_STAIRS));
 
-        tag(BlockTags.SLABS)
+        builder(BlockTags.SLABS)
                 .add(ModBlocks.getResourceKey(ModBlocks.GOLD_SLAB))
                 .add(ModBlocks.getResourceKey(ModBlocks.DIAMOND_SLAB))
                 .add(ModBlocks.getResourceKey(ModBlocks.NETHERITE_SLAB))
