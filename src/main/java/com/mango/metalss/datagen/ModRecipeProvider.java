@@ -32,6 +32,23 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.AMETHYST_SLAB, Blocks.AMETHYST_BLOCK);
                 slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.REDSTONE_SLAB, Blocks.REDSTONE_BLOCK);
 
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.IRON_STAIRS, Blocks.IRON_BLOCK, 1);
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.GOLD_STAIRS, Blocks.GOLD_BLOCK, 1);
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.DIAMOND_STAIRS, Blocks.DIAMOND_BLOCK, 1);
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.NETHERITE_STAIRS, Blocks.NETHERITE_BLOCK, 1);
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.EMERALD_STAIRS, Blocks.EMERALD_BLOCK, 1);
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LAPIS_STAIRS, Blocks.LAPIS_BLOCK, 1);
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.AMETHYST_STAIRS, Blocks.AMETHYST_BLOCK, 1);
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.REDSTONE_STAIRS, Blocks.REDSTONE_BLOCK, 1);
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.IRON_SLAB, Blocks.IRON_BLOCK, 2);
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.GOLD_SLAB, Blocks.GOLD_BLOCK, 2);
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.DIAMOND_SLAB, Blocks.DIAMOND_BLOCK, 2);
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.NETHERITE_SLAB, Blocks.NETHERITE_BLOCK, 2);
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.EMERALD_SLAB, Blocks.EMERALD_BLOCK, 2);
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LAPIS_SLAB, Blocks.LAPIS_BLOCK, 2);
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.AMETHYST_SLAB, Blocks.AMETHYST_BLOCK, 2);
+                stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, ModBlocks.REDSTONE_SLAB, Blocks.REDSTONE_BLOCK, 2);
+
                 stairBuilder(ModBlocks.GOLD_STAIRS, Ingredient.of(Blocks.GOLD_BLOCK))
                         .unlockedBy(getHasName(Blocks.GOLD_BLOCK), has(Blocks.GOLD_BLOCK))
                         .group("gold")
