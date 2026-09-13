@@ -1,7 +1,7 @@
 package com.mango.metalss.block.custom;
 
 import net.minecraft.core.BlockPos;
-import net.minecraft.world.flag.FeatureFlag;
+import net.minecraft.core.Direction;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.SlabBlock;
 import net.minecraft.world.level.block.state.BlockState;
@@ -18,7 +18,7 @@ public class RedstoneSlabBlock extends SlabBlock {
     }
 
     @Override
-    protected int ownSignal(BlockState state, BlockGetter level, BlockPos pos) {
+    protected int getSignal(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
         if (state.getValue(TYPE).equals(SlabType.DOUBLE)) {
             return 15;
         } else {
